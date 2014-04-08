@@ -23,7 +23,7 @@ public class EmailSender
     /**
      * <B>SendMail</B>
      * <P>
-     *      This will send a basic mail using the outbound.cisco.com smtp
+     *      This will send a basic mail using the outbound.octopus.com smtp
      *      server and pass in the parameters given.  If from is null
      *      nas-automation mailing alias will be used.
      *      
@@ -57,7 +57,7 @@ public class EmailSender
     /**
      * <B>SendHtmlMail</B>
      * <P>
-     *      This will send a basic mail using the outbound.cisco.com smtp
+     *      This will send a basic mail using the outbound.octopus.com smtp
      *      server and pass in the parameters given.  If from is null
      *      nas-automation mailing alias will be used.
      *      
@@ -121,7 +121,7 @@ public class EmailSender
     /**
      * <B>SendHtmlMail</B>
      * <P>
-     *      This will send a basic mail using the outbound.cisco.com smtp
+     *      This will send a basic mail using the outbound.octopus.com smtp
      *      server and pass in the parameters given.  If from is null
      *      nas-automation mailing alias will be used.
      *      
