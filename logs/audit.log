@@ -1,0 +1,7 @@
+2014-04-07 01:12:15,073 DEBUG [Database] Set Suite Name ::Security
+2014-04-07 01:12:15,074 INFO [Database] Setting  UUID 6a5b8565-9d49-4a6c-8541-12cc3f3aaab9
+2014-04-07 01:12:15,366 DEBUG [Database] Inserted test result for : testVulnerabilities
+2014-04-07 01:12:30,404 DEBUG [Database] Inserted test result for : testVulnerabilities
+2014-04-07 01:12:30,423 DEBUG [Database] Ended test run
+2014-04-07 01:12:30,441 DEBUG [Database] body is::<tr><td><font color='blue'>TestCaseName : testVulnerabilities</font></td><td>TestResult : FAILED</td><td>starttime : 2014-04-07 01:12:15.0</td><td>endtime : 2014-04-07 01:12:30.0</td></tr>
+2014-04-07 01:12:30,441 DEBUG [Database] Result is::: <table border = 1 > <tr><td><font color='blue'>TestCaseName : testVulnerabilities</font></td><td>TestResult : FAILED</td><td>starttime : 2014-04-07 01:12:15.0</td><td>endtime : 2014-04-07 01:12:30.0</td></tr> </table>
