@@ -15,7 +15,7 @@ import sun.net.smtp.SmtpClient;
 
 public class EmailSender
 {
-    private static final String defaultFrom = "Octopus Automation <pushirattan@gmail.com>";
+    private static final String defaultFrom = "Octopus Automation <john@gmail.com>";
     private static final String mailhost = "outbound.octopus.com";
     
     
@@ -203,8 +203,8 @@ public class EmailSender
     {
     	String from = "octopus-auto@octopus.com";
     	String to = "dummy@octopus.com";
-    	String cc = "prattan@octopus.com";
-    	String bcc = "pratatn@octopus.com";
+    	String cc = "john@octopus.com";
+    	String bcc = "john@octopus.com";
 
     	EmailSender.sendHtmlMail(to, cc, bcc, from, "Testing", "This is a test");
 	}
