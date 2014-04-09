@@ -28,7 +28,7 @@ public class Database {
 	static Logger s_logger= Logger.getLogger(Database.class);
 
 	 static String url = "jdbc:mysql://localhost:3306/";
-     static String dbName = "pushy";
+     static String dbName = "john";
      static String driver = "com.mysql.jdbc.Driver";
      static String userName = "root";
      static String password ="";
