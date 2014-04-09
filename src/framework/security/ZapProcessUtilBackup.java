@@ -18,7 +18,7 @@ public class ZapProcessUtilBackup {
     private static void startZap() throws Exception {
         System.out.println("Starting ZAP...");
         // Path to zap.sh or zap.bat
-        new ProcessBuilder("/Users/pushpinderrattan/Desktop/Zap/OWASP ZAP.app/Contents/Java/zap.sh", "-daemon", "-port " + ZAP_PORT).start();
+        new ProcessBuilder("/Users/john/Desktop/Zap/OWASP ZAP.app/Contents/Java/zap.sh", "-daemon", "-port " + ZAP_PORT).start();
 
         System.out.println("Waiting for ZAP...");
         Thread.sleep(15000);
